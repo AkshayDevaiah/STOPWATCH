@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-image: url("stopwatch.png");
+}
+
+.container{
+    width: 50%;
+    height: 250px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 0 3px;
+    /* background: transparent; */
+}
+
+#timer{
+    width:100%;
+font-size: 70px;
+text-align: center;
+margin: 0px auto;
+padding:35px;
+}
+
+.buttons{
+    text-align: center;
+}
+
+button{
+    margin:0 10px ;
+    border:none;
+}
+
+button i{
+  font-size: 2rem;
+  padding: 10px;
+}
+
+#startStopBtn{
+    font-size: 3rem;
+}
+#resetBtn{
+    font-size: 3rem;
+}
